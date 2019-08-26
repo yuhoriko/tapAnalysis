@@ -12,6 +12,9 @@
 		6EE730A722E5B7BF00A63E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE730A522E5B7BF00A63E77 /* Main.storyboard */; };
 		6EE730A922E5B7C000A63E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE730A822E5B7C000A63E77 /* Assets.xcassets */; };
 		6EE730AC22E5B7C000A63E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE730AA22E5B7C000A63E77 /* LaunchScreen.storyboard */; };
+		6EE730B422E5BB3200A63E77 /* bikkuri.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE730B322E5BB3200A63E77 /* bikkuri.png */; };
+		6EE730B622E5BB3C00A63E77 /* umu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE730B522E5BB3C00A63E77 /* umu.png */; };
+		6EE730B822E5BB4400A63E77 /* ureshi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE730B722E5BB4400A63E77 /* ureshi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		6EE730A822E5B7C000A63E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EE730AB22E5B7C000A63E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EE730AD22E5B7C000A63E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE730B322E5BB3200A63E77 /* bikkuri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bikkuri.png; sourceTree = "<group>"; };
+		6EE730B522E5BB3C00A63E77 /* umu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = umu.png; sourceTree = "<group>"; };
+		6EE730B722E5BB4400A63E77 /* ureshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ureshi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,7 @@
 		6EE7309522E5B7BF00A63E77 = {
 			isa = PBXGroup;
 			children = (
+				6EE730B922E5BE5000A63E77 /* icons */,
 				6EE730A022E5B7BF00A63E77 /* tapAnalysis */,
 				6EE7309F22E5B7BF00A63E77 /* Products */,
 			);
@@ -62,6 +69,16 @@
 				6EE730AD22E5B7C000A63E77 /* Info.plist */,
 			);
 			path = tapAnalysis;
+			sourceTree = "<group>";
+		};
+		6EE730B922E5BE5000A63E77 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				6EE730B722E5BB4400A63E77 /* ureshi.png */,
+				6EE730B522E5BB3C00A63E77 /* umu.png */,
+				6EE730B322E5BB3200A63E77 /* bikkuri.png */,
+			);
+			path = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +142,9 @@
 				6EE730AC22E5B7C000A63E77 /* LaunchScreen.storyboard in Resources */,
 				6EE730A922E5B7C000A63E77 /* Assets.xcassets in Resources */,
 				6EE730A722E5B7BF00A63E77 /* Main.storyboard in Resources */,
+				6EE730B822E5BB4400A63E77 /* ureshi.png in Resources */,
+				6EE730B622E5BB3C00A63E77 /* umu.png in Resources */,
+				6EE730B422E5BB3200A63E77 /* bikkuri.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
